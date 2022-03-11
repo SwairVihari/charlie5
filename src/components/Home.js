@@ -8,6 +8,16 @@ import card from './img/card.png'
 import FormModal from './FormModal'
 import mobile from './img/mobile.jpg'
 const Home = () => {
+
+    const scrollToTop = () => {
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth' // for smoothly scrolling
+        });
+
+        console.log("FUnction is working")
+      };
+    
   return (
       <>
     <Container fluid={true} className={Styles.header}>
@@ -203,7 +213,10 @@ const Home = () => {
         
         <Row>
             <Col className={Styles.ButtonContainer} lg={7}>
-        <Button className={Styles.Button}> Empieza a invertir en acciones de Amazon</Button>
+        <Button onClick={()=>{window.scrollTo({
+          top: 0,
+          behavior: 'smooth' // for smoothly scrolling
+        })}} className={Styles.Button}> Empieza a invertir en acciones de Amazon</Button>
             
             </Col>
         </Row>

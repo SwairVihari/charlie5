@@ -54,7 +54,7 @@ const Insider = () => {
 
     <Container fluid='true'>
     <Accordion defaultActiveKey="0">
-  <Accordion.Item className={Styles.AccordionItem} eventKey="0">
+  <Accordion.Item className={Styles.AccordionItem} eventKey="1">
     <Accordion.Header> <img className={Styles.accordianImg} src={Accordion1}></img></Accordion.Header>
     <Accordion.Body>
      <Row className={Styles.footer}>
@@ -183,7 +183,7 @@ const Insider = () => {
   <Form.Group className="mb-3">
     <Form.Label className={Styles.label}>Número de Teléfono</Form.Label>
     <PhoneInput className='mb-3'
-                country={'ie'}
+                country={''}
                 inputClass={Styles.phoneinput}
                 containerStyle={{width:"100%"}}/>
     
