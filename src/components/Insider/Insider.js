@@ -102,7 +102,7 @@ const Insider = () => {
   </Accordion.Item>
 
 
-  <Accordion.Item className={Styles.AccordionItem} eventKey="1">
+  <Accordion.Item className={Styles.AccordionItem} eventKey="2">
     <Accordion.Header>
         <img className={Styles.accordianImg} src={Accordion2}></img>
     </Accordion.Header>
