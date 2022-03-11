@@ -1,0 +1,156 @@
+.container{
+    width: 100vw;
+    margin: 0 !important;
+    padding-left: 0 !important;
+}
+.logo{
+    /* border: 2px solid red; */
+    margin: 20px auto;
+    display: block;
+}
+
+.backgroundImgDiv{
+    width: 99vw;
+    height: 80vh;
+    position: relative;
+    overflow: hidden !important;
+}
+
+
+.backgroundImg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.imgText{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 50%;
+    width: 50%;
+    font-weight: 900;
+}
+
+@media  screen and (max-width:900px) {
+    .imgText{
+        width: 90%;
+        font-size: 0.75rem;
+    }
+
+    .FormContainer{
+        width: 100vw;
+    }
+}
+
+.accordianImg{
+    width: 90%;
+}
+
+.AccordionItem{
+    width: 95vw !important;
+    border: none !important;
+    margin: 0px auto;
+
+}
+
+.form{
+    background-color: #107FC8;
+    padding: 22px 50px;
+    border-radius: 22px;
+    width: 100%;
+}
+
+.input{
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 22px;
+    color: white !important;
+}
+
+.border{
+    margin:  20px auto ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formHead1{
+    color: #0B108B;
+    font-size: 1.5rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+.formHead2{
+    color: #838383;
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.Button{
+    
+    display: block;
+    padding: 4px 25px;
+    margin: 20px auto;
+    color: white;
+    font-weight: 900;
+    width: 90%;
+    background-color: #0B108B;
+}
+
+.footerRow{
+    
+    max-width: 500px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px auto;
+    font-weight: 700;
+    padding: 20px 0px;
+    font-size: 1rem;
+    border-top: 2px solid #838383 ;
+    border-bottom: 2px solid #838383;
+    color: #838383;
+}
+
+.footer{
+    text-align: center;
+    color: #838383;
+}
+
+.inverItem{
+    text-align: center;
+}
+
+.inverImg{
+    transform: scale(0.5);
+    text-align: center;
+}
+
+.inverText{
+    text-align: center;
+}
+
+.textAlign{
+    text-align: center;
+}
+
+@media screen and (max-width:900px) {
+
+    .footerRow{
+        font-size: 0.5rem;
+    }
+    
+}
